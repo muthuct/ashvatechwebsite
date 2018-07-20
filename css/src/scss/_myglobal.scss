@@ -1,0 +1,35 @@
+#brand-name {
+    font-size: 1.3rem;
+    margin-bottom:-32px;
+    font-family: 'Acme', sans-serif;
+    color:#f2f2f2;
+}
+
+#ashvaLogo {
+    position: fixed;
+    top: 0px;
+    z-index: 50;
+}
+
+%shadow-box {
+    margin-top:10px;
+    margin-bottom:10px;
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);    
+}
+
+.heading-span{
+    margin-left: 10px;
+}
+
+.footer-small-text {
+    font-size:10px;
+}
+
+ul>li{
+    list-style: none;
+}
+
+
+

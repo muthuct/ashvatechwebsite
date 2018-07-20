@@ -1,0 +1,37 @@
+#feedback-box {
+    font-size: 23px;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding: 10px;
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.5);  
+    border-radius: 10px;  
+}
+
+#feedback-box #quotes {
+font-style: italic;
+font-family:  'Kalam', cursive;;
+}
+
+#feedback-client {
+font-weight: bolder;
+font-size: 20px;
+}
+
+#award-box{
+    background-color: $link;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    border-radius:5px;
+    
+    h1, strong {
+        color: $white;
+    }
+
+    .subtitle{
+        color: $white;
+    }
+}
+

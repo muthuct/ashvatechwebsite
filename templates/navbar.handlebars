@@ -1,0 +1,185 @@
+<a id="ashvaLogo" href="#">
+  {{#ifeq product 'yes'}}
+  <img src="../img/ashva-logos/ashvalogo-oldsite.png" alt="Ashva Tech" width="180"> 
+  {{else}}
+  <img src="img/ashva-logos/ashvalogo-oldsite.png" alt="Ashva Tech" width="180"> 
+  {{/ifeq}}
+
+  <!-- <span id="brand-name">DIGITAL HEALTHCARE</span>-->
+</a>
+
+
+<nav class="navbar is-link is-fixed-top">
+  <!--Website designed and developed by Muthu Annamalai Chidambaram(http://muthuct.com)-->
+  <div class="navbar-brand">
+
+    <div class="navbar-burger burger" data-target="navbarTarget">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarTarget" class="navbar-menu">
+    <div class="navbar-end">
+
+      {{#ifeq product 'yes'}}
+      <a class="navbar-item {{#ifeq title 'Home'}}is-active{{/ifeq}}" href="../index.html">
+      {{else}}
+      <a class="navbar-item {{#ifeq title 'Home'}}is-active{{/ifeq}}" href="index.html">
+      {{/ifeq}}
+
+
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+          <span>Home</span>
+      </a>
+
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            <span class="icon">
+              <i class="fas fa-desktop"></i>
+            </span>
+            <span>Products</span>
+          </a>
+
+          <div class="navbar-dropdown menu">
+
+            <p class="navbar-item menu-label">
+              Radiology Solutions
+            </p>
+            <ul class="navbar-item menu-list">
+              <li>
+
+                {{#ifeq product 'yes'}}
+                <a class="navbar-item {{#ifeq title 'EdgePACS'}}is-active{{/ifeq}}" href="edgepacs.html">
+                {{else}}
+                <a class="navbar-item {{#ifeq title 'EdgePACS'}}is-active{{/ifeq}}" href="products/edgepacs.html">
+                 {{/ifeq}}
+                The EDGE PACS</a>
+              </li>
+              <li>
+                {{#ifeq product 'yes'}}
+                <a class="navbar-item {{#ifeq title 'Radion'}}is-active{{/ifeq}}" href="radion.html">
+                {{else}}
+                <a class="navbar-item {{#ifeq title 'Radion'}}is-active{{/ifeq}}" href="products/radion.html">
+                 {{/ifeq}}
+                RADiON DICOM Workstation</a>
+              </li>
+              <li>
+                {{#ifeq product 'yes'}}
+                <a class="navbar-item {{#ifeq title 'Titus'}}is-active{{/ifeq}}" href="titus.html">
+                {{else}}
+                <a class="navbar-item {{#ifeq title 'Titus'}}is-active{{/ifeq}}" href="products/titus.html">
+                 {{/ifeq}}
+                Titus DICOM Distributor</a>
+              </li>
+            </ul>
+
+
+            <p class="navbar-item menu-label">
+              PACS Accessories
+            </p>
+            <ul class="navbar-item menu-list">
+              <li>
+                {{#ifeq product 'yes'}}
+                <a class="navbar-item {{#ifeq title 'Phoenix'}}is-active{{/ifeq}}" href="phoenix.html">
+                {{else}}
+                <a class="navbar-item {{#ifeq title 'Phoenix'}}is-active{{/ifeq}}" href="products/phoenix.html">
+                 {{/ifeq}}
+                Phoenix DICOM Converter</a>
+              </li>
+              <li>
+                {{#ifeq product 'yes'}}
+                <a class="navbar-item {{#ifeq title 'Stream'}}is-active{{/ifeq}}" href="stream.html">
+                {{else}}
+                <a class="navbar-item {{#ifeq title 'Stream'}}is-active{{/ifeq}}" href="products/stream.html">
+                 {{/ifeq}}
+                Stream Worklist Generator</a>
+              </li>
+            </ul>
+
+
+            <p class="navbar-item menu-label">
+              Ultrasound &amp; Endoscopy
+            </p>
+            <ul class="navbar-item menu-list">
+              <li>
+                {{#ifeq product 'yes'}}
+                <a class="navbar-item {{#ifeq title 'Magic'}}is-active{{/ifeq}}" href="imagic.html">
+                {{else}}
+                <a class="navbar-item {{#ifeq title 'Magic'}}is-active{{/ifeq}}" href="products/imagic.html">
+                 {{/ifeq}}
+                iMagic Ultrasound Image Management</a>
+              </li>
+              <li>
+                
+                {{#ifeq product 'yes'}}
+                <a class="navbar-item {{#ifeq title 'Focus'}}is-active{{/ifeq}}" href="focus.html">
+                {{else}}
+                <a class="navbar-item {{#ifeq title 'Focus'}}is-active{{/ifeq}}" href="products/focus.html">
+                 {{/ifeq}}
+                Focus Endoscopy Image Management</a>
+              </li>
+            </ul>
+
+            <hr class="navbar-divider">
+
+            <a class="navbar-item">
+              Products List
+            </a>
+
+          </div>
+        </div>
+
+      {{#ifeq product 'yes'}}
+      <a class="navbar-item {{#ifeq title 'About'}}is-active{{/ifeq}}" href="../aboutus.html">
+      {{else}}
+      <a class="navbar-item {{#ifeq title 'About'}}is-active{{/ifeq}}" href="aboutus.html">
+      {{/ifeq}}
+          <span class="icon">
+            <i class="fas fa-users"></i>
+          </span>
+          <span> About Us</span>
+        </a>
+
+      {{#ifeq product 'yes'}}
+      <a class="navbar-item {{#ifeq title 'Presence'}}is-active{{/ifeq}}" href="../ourpresence.html">
+      {{else}}
+        <a class="navbar-item {{#ifeq title 'Presence'}}is-active{{/ifeq}}" href="ourpresence.html">
+      {{/ifeq}}
+          <span class="icon">
+            <i class="fas fa-globe-americas"></i>
+          </span>
+          <span>Our Presence</span>
+        </a>
+
+      {{#ifeq product 'yes'}}
+      <a class="navbar-item {{#ifeq title 'Testimonials'}}is-active{{/ifeq}}" href="../testimonials.html">
+      {{else}}
+      <a class="navbar-item {{#ifeq title 'Testimonials'}}is-active{{/ifeq}}" href="testimonials.html">
+      {{/ifeq}}
+          <span class="icon">
+            <i class="fas fa-comments"></i>
+          </span>
+          <span>Testimonials</span>
+        </a>
+
+      {{#ifeq product 'yes'}}
+      <a class="navbar-item {{#ifeq title 'Contact'}}is-active{{/ifeq}}" href="../contactus.html">
+      {{else}}
+        <a class="navbar-item {{#ifeq title 'Contact'}}is-active{{/ifeq}}" href="contactus.html">
+      {{/ifeq}}
+          <span class="icon">
+            <i class="fas fa-paper-plane"></i>
+          </span>
+          <span>Contact Us</span>
+        </a>
+
+    </div>
+
+
+  </div>
+</nav>

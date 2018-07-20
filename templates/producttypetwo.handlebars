@@ -1,0 +1,102 @@
+<section class="hero is-medium is-link is-bold">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-centered is-vcentered">
+                <div class="column">
+                    <img src="{{productLogoUrl}}">
+                    <br>
+                    <br>
+                    <p class="subtitle is-spaced is-5 has-text-centred">
+                        Need a Product Demo or Quote?
+                    </p>
+                    <a href="../contactus.html" class="button">Contact Us</a>
+                </div>
+
+                <div class="column content">
+                    <h1 class="title">
+                        {{productTitle}}
+                    </h1>
+                    <h2 class="subtitle">
+                        {{productSubtitle}}
+                    </h2>
+
+                    <p class="has-text-justified">
+                        {{productOverview}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <div class="columns content is-centered">
+            <div class="column content is-three-quarters is-medium">
+
+                <p class="title has-text-centered">
+                    <i class="fas fa-star"></i>
+                    <span class="heading-span">Key Features</span>
+                </p>
+                <div class="is-divider"></div>
+
+                <div class="columns is-centered">
+                    <div class="column">
+                        <ul>
+                            {{#each keyfeatures}}
+                            <li>
+                                <i class="fas fa-star"></i>
+                                {{this}}
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="section">
+    <div class="container">
+        <div class="columns content is-centered">
+            <div class="column content">
+                <p class="title has-text-centered">
+                    <i class="fas fa-camera"></i>
+                    <span class="heading-span">Product Images</span>
+                </p>
+
+                <div class="is-divider"></div>
+            
+            </div>
+        </div>
+
+
+        <div class="columns is-centered">
+            {{#each images}}
+            <div class="column">
+                <img onclick="fullImage('{{this}}')" src="{{this}}">
+            </div>
+            {{/each}}
+        </div>
+
+
+        <hr>
+
+    </div>
+</section>
+
+<div id="templateModal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+        <p id="modalImage" class="image">
+            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="">
+        </p>
+    </div>
+    <button onclick="closeImage()" class="modal-close is-large" aria-label="close"></button>
+</div>

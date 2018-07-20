@@ -1,0 +1,166 @@
+
+/*************/
+.carousel .carousel-container .carousel-item .caption-text-left {
+    position: absolute;
+    left: 0;
+    right: 50%;
+    top: 0;
+    padding: 1.5em;
+    margin: 0;
+    //background: rgba(255, 255, 255, 0.6);
+    width:50%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+
+   
+}
+
+.caption-text-left {
+    text-align: left;
+    color: #403f4c;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+
+.carousel .carousel-container .carousel-item .caption-text-center {
+    position: absolute;
+    left: 25%;
+    right: 0;
+    top: 0;
+    padding: 1.5em;
+    margin: 0;
+   // background: rgba(255, 255, 255, 0.6);
+    width:50%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.caption-text-center {
+    text-align: center;
+    color: #403f4c;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+
+.carousel .carousel-container .carousel-item .caption-text-right {
+    position: absolute;
+    left: 50%;
+    right: 0;
+    top: 0;
+    padding: 1.5em;
+    margin: 0;
+   // background: rgba(255, 255, 255, 0.6);
+    width:50%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.caption-text-right {
+    text-align: right;
+    color: #403f4c;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+
+/**Extra Large Devices**/
+@media only screen and (min-width : 1201px) {
+
+    .caption-text-center, .caption-text-left, .caption-text-right{
+        font-size: 3rem;
+
+        .sub-caption {
+            font-size: 1.2rem; 
+        }
+
+
+        a {
+            font-size: 0.9rem;
+        }
+    }
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+    .caption-text-center, .caption-text-left, .caption-text-right{
+        font-size: 2.5rem;
+
+        .sub-caption {
+            font-size: 1rem;
+        }
+
+        a {
+            font-size: 0.7rem;
+        }
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .caption-text-center, .caption-text-left, .caption-text-right{
+        font-size: 2rem;
+
+        .sub-caption {
+            font-size: 0.8rem; 
+        }
+
+        a {
+            font-size: 0.5rem;
+        }
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .caption-text-center, .caption-text-left, .caption-text-right{
+        font-size: 1.5rem;
+
+        .sub-caption {
+            font-size: 0.6rem; 
+        }
+
+
+        a {
+            font-size: 0.4rem;
+        }
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    .caption-text-center, .caption-text-left, .caption-text-right{
+        font-size: 1rem;
+
+
+        .sub-caption {
+            font-size: 0.5rem; 
+        }
+
+
+        a {
+            font-size: 0.3rem;
+        }
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .caption-text-center, .caption-text-left, .caption-text-right{
+        font-size: 1rem;
+
+
+        .sub-caption {
+            font-size: 0.4rem; 
+        }
+
+
+        a {
+            font-size: 0.2rem;
+        }
+    }
+}
+
+/**At Ashva expert people**/
